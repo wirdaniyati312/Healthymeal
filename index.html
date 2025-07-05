@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthyMeal - Makanan Sehat Siap Antar</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f8f5; color: #333; }
+    header { background: url('https://i.imgur.com/RvKkJ2L.jpg') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; }
+    header h1 { font-size: 48px; margin: 0; }
+    header p { font-size: 20px; margin-top: 10px; }
+    .cta-btn {
+      margin-top: 30px;
+      display: inline-block;
+      background: #43a047;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    nav { background: #388e3c; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 { color: #388e3c; margin-top: 0; }
+    .menu-list, .galeri, .testimoni {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .menu-item, .galeri-item, .testi-item {
+      width: 250px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price { font-weight: bold; color: #e65100; }
+    .pesan-btn {
+      margin-top: 8px;
+      padding: 8px 16px;
+      background: #43a047;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #4caf50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+      .menu-item, .galeri-item, .testi-item { width: 100%; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Halaman Utama (Landing) -->
+<header>
+  <h1>HealthyMeal</h1>
+  <p>Makanan sehat, lezat, dan siap antar ke rumahmu</p>
+  <a href="#menu" class="cta-btn">Lihat Menu</a>
+</header>
+
+<!-- Navigasi -->
+<nav>
+  <a href="#menu">Menu</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#testimoni">Testimoni</a>
+  <a href="#pesan">Pesan</a>
+</nav>
+
+<!-- MENU -->
+<section id="menu">
+  <h2>Healthy Food Banda Aceh</h2>
+  <div class="menu-list">
+    <div class="menu-item">
+      <img src="https://ayam.jpg" alt="Ayam Panggang">
+      <h3>Cereal crispy chicken</h3>
+      <p class="price">Rp25.000</p>
+      <a href="#pesan" class="pesan-btn">Pesan</a>
+    </div>
+    <div class="menu-item">
+      <img src="https://i.imgur.com/fpS2nXL.jpg" alt="Overnight Oats">
+      <h3>Overnight Oats + Buah</h3>
+      <p class="price">Rp25.000</p>
+      <a href="#pesan" class="pesan-btn">Pesan</a>
+    </div>
+    <div class="menu-item">
+      <img src="https://i.imgur.com/fu6km6v.jpg" alt="Sayur Pliek U">
+      <h3>Sayur Pliek U (Aceh)</h3>
+      <p class="price">Rp20.000</p>
+      <a href="#pesan" class="pesan-btn">Pesan</a>
+    </div>
+    <div class="menu-item">
+      <img src="https://i.imgur.com/NrJdXXS.jpg" alt="Ubi Pisang">
+      <h3>Ubi & Pisang Rebus</h3>
+      <p class="price">Rp15.000</p>
+      <a href="#pesan" class="pesan-btn">Pesan</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 HealthyMeal | Website by Kelompok 4</p>
+</footer>
+
+</body>
+</html>
