@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthyMeal - Makanan Sehat Siap Antar</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f8f5; color: #333; }
+    header {
+      background: url('gambar/poster.png') no-repeat center center/cover;
+      color: white; text-align: center; padding: 100px 20px;
+    }
+    header h1 { font-size: 48px; margin: 0; }
+    header p { font-size: 20px; margin-top: 10px; }
+    .cta-btn {
+      margin-top: 30px; display: inline-block;
+      background: #43a047; color: white; padding: 12px 24px;
+      border-radius: 8px; font-size: 18px; text-decoration: none;
+    }
+    nav { background: #388e3c; text-align: center; padding: 10px; }
+    nav a {
+      color: white; margin: 0 15px; text-decoration: none; font-weight: bold;
+    }
+    section {
+      max-width: 1000px; margin: auto; padding: 40px 20px;
+      background: white; margin-top: 20px; border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 { color: #388e3c; margin-top: 0; }
+    .menu-list, .galeri, .testimoni {
+      display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;
+    }
+    .menu-item, .galeri-item, .testi-item {
+      width: 250px; text-align: center;
+    }
+    img { width: 100%; border-radius: 10px; }
+    .price { font-weight: bold; color: #e65100; }
+    .pesan-btn {
+      margin-top: 8px; padding: 8px 16px; background: #43a047;
+      color: white; border-radius: 5px; text-decoration: none; display: inline-block;
+    }
+    form input, form select, form textarea {
+      width: 100%; padding: 10px; margin: 10px 0;
+      border: 1px solid #ccc; border-radius: 5px;
+    }
+    form button {
+      background: #4caf50; color: white; padding: 12px 20px;
+      border: none; border-radius: 5px; font-size: 16px; cursor: pointer;
+    }
+    footer {
+      background: #333; color: white; text-align: center;
+      padding: 20px; margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+      .menu-item, .galeri-item, .testi-item { width: 100%; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HealthyMeal</h1>
+  <p>Makanan sehat, lezat, dan siap antar ke rumahmu</p>
+  <a href="#menu" class="cta-btn">Lihat Menu</a>
+</header>
+
+<nav>
+  <a href="#menu">Menu</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#testimoni">Testimoni</a>
+  <a href="#pesan">Pesan</a>
+</nav>
+
+<section id="menu">
+  <h2>Menu Makanan dhapu sehat</h2>
+  <div class="menu-list">
+    <div class="menu-item">
+      <img src="gambar/menu 2.jpeg" alt="crispy chicken">
+      <h3>Cereal crispy chicken</h3>
+      <p class="price">R25.000</p>
+      <a href="https://wa.me/62895323034746" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/menu 3.jpeg" alt="beaf steak">
+      <h3>Beaf Steak with Mashed Potato</h3>
+      <p class="price">Rp30.000</p>
+      <a href="https://wa.me/62895323034746" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/menu 4.jpeg" alt="chicken">
+      <h3>Black pepper chicken</h3>
+      <p class="price">Rp25.000</p>
+      <a href="https://wa.me/62895323034746" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menu Makanan gading healthy food</h2>
+  <div class="menu-list">
+    <div class="menu-item">
+      <img src="gambar/menu 6.jpeg" alt="nasi ayam" width="200px" height="200px">
+      <h3>menu box satu</h3>
+      <p class="price">R20.000</p>
+      <a href="https://wa.me/86116855503" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/menu 7.jpeg" alt="beaf steak" width="200px" height="200px">
+      <h3>menu box dua</h3>
+      <p class="price">Rp20.000</p>
+      <a href="https://wa.me/86116855503" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/menu 5.jpeg" alt="chicken" width="200px" height="200px">
+      <h3>menu box 3</h3>
+      <p class="price">Rp20.000</p>
+      <a href="https://wa.me/86116855503" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="menu">
+  <h2>healthy food by pici</h2>
+  <div class="menu-list">
+    <div class="menu-item">
+      <img src="gambar/pici 3.jpeg" alt="chicken salad" width="200px" height="200px">
+      <h3>Healthy Avocado Chicken Salad</h3>
+      <p class="price">R50.000</p>
+      <a href="https://wa.me/83192126601" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/pici 2.jpeg" alt="potato egg" width="200px" height="200px">
+      <h3>Pesto Eggs on Toast</h3>
+      <p class="price">Rp30.000</p>
+      <a href="https://wa.me/83192126601" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+    <div class="menu-item">
+      <img src="gambar/pici 1.jpeg" alt="salad" width="200px" height="200px">
+      <h3>Smoked Salmon Salad In Creamy Caper Chive Dressing</h3>
+      <p class="price">Rp45.000</p>
+      <a href="https://wa.me/83192126601" class="pesan-btn" target="_blank">Pesan via WA</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 HealthyMeal | Website by Kelompok 4</p>
+</footer>
+
+</body>
+</html>
